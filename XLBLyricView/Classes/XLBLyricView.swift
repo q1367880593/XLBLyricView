@@ -127,8 +127,8 @@ public class XLBLyricView: UIView {
         animation.keyTimes = keyTimes
         animation.values = values
         animation.duration = duration
-        animation.calculationMode = "linear"
-        animation.fillMode = "forwards"
+        animation.calculationMode = kCAAnimationLinear
+        animation.fillMode = kCAFillModeForwards
         animation.isRemovedOnCompletion = false
 //        animation.repeatCount = MAXFLOAT
         maskLayer.add(animation, forKey: "MaskAnimation")
