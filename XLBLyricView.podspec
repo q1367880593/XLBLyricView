@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/xiaolongbao/XLBLyricView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xiaolongbao' => 'daixuefeng@5i5j.com' }
+  s.author           = { 'xiaolongbao' => '1367880593@qq.com' }
   s.source           = { :git => 'https://github.com/xiaolongbao/XLBLyricView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'XLBLyricView/Classes/**/*'
   

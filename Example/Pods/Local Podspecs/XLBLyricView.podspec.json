@@ -1,0 +1,22 @@
+{
+  "name": "XLBLyricView",
+  "version": "0.1.0",
+  "summary": "A short description of XLBLyricView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaolongbao/XLBLyricView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaolongbao": "daixuefeng@5i5j.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaolongbao/XLBLyricView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XLBLyricView/Classes/**/*"
+}

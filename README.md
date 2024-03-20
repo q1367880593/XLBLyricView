@@ -22,7 +22,7 @@ pod 'XLBLyricView'
 
 ## Author
 
-xiaolongbao, daixuefeng@5i5j.com
+q1367880593, 1367880593@qq.com
 
 ## License
 

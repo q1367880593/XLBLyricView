@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33ACF5EA09E4F65EDDD84C9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		33ACF5EA09E4F65EDDD84C9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XLBLyricView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLBLyricView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		799A6A87E5980677F3F36230 /* Pods-XLBLyricView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBLyricView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XLBLyricView_Tests/Pods-XLBLyricView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		81CDDD3C4C9ADA1277BD0EF6 /* Pods_XLBLyricView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLBLyricView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8752E177AEB9FE5EF0348B48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8752E177AEB9FE5EF0348B48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B352A8B23517821ADE385EB2 /* Pods-XLBLyricView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBLyricView_Example.release.xcconfig"; path = "Target Support Files/Pods-XLBLyricView_Example/Pods-XLBLyricView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B8BA62D477E8FBB019176A84 /* Pods_XLBLyricView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLBLyricView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC8F836AA227AA4769545BF8 /* XLBLyricView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XLBLyricView.podspec; path = ../XLBLyricView.podspec; sourceTree = "<group>"; };
+		CC8F836AA227AA4769545BF8 /* XLBLyricView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XLBLyricView.podspec; path = ../XLBLyricView.podspec; sourceTree = "<group>"; };
 		CCEA690CA1389F278A67B921 /* Pods-XLBLyricView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBLyricView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XLBLyricView_Example/Pods-XLBLyricView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D61A26BECA421614675D148F /* Pods-XLBLyricView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLBLyricView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XLBLyricView_Tests/Pods-XLBLyricView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				D61A26BECA421614675D148F /* Pods-XLBLyricView_Tests.debug.xcconfig */,
 				799A6A87E5980677F3F36230 /* Pods-XLBLyricView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XLBLyricView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XLBLyricView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

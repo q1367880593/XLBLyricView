@@ -1,0 +1,16 @@
+PODS:
+  - XLBLyricView (0.1.0)
+
+DEPENDENCIES:
+  - XLBLyricView (from `../`)
+
+EXTERNAL SOURCES:
+  XLBLyricView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XLBLyricView: 9e137bdfaee90d0df8b972dab65a238eedb855b6
+
+PODFILE CHECKSUM: 17c2ae8eb4176e4086bdec25d5550635f802a6bd
+
+COCOAPODS: 1.11.3
